@@ -1,0 +1,26 @@
+<form id="create_page" method="post">
+    <div class="line">
+        <label for="name">Page Name: *</label>
+        <input type="text" id="name" name="name" value="{{#results}}{{seo3}}{{/results}}" />
+    </div>
+    <div class="line">
+        <label for="url">Page Url: *</label>
+        <input type="text" id="url" name="url" value="{{#results}}{{seo3}}{{/results}}" />
+    </div>
+    <div class="line">
+        <label for="layout">Page Layout: *</label>
+        <select name="layout_id" class="select-layout">
+            <option>  </option>
+            {{#layouts_list}}
+                <option value="{{id}}" modules="{{modules_sum}}" {{selected}}>{{name}}</option>
+            {{/layouts_list}}
+        </select>
+    </div>
+
+    <div class="line">
+        <div class="controls">
+            <input type="submit" name="submit" class="button" id="submit_btn" value="Submit" />
+        </div>
+    </div>
+</form>
+<div id="modules"></div>

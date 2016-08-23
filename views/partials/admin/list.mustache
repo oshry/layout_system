@@ -1,0 +1,22 @@
+<div id="list">
+<table>
+    <thead>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>url</th>
+        <th>action</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#list}}
+    <tr>
+        <td>{{id}}</td>
+        <td>{{page_name}}</td>
+        <td>{{url}}</td>
+        <td><a href="/admin/edit/{{id}}">edit</a></td>
+    </tr>
+    {{/list}}
+    </tbody>
+</table>
+</div>

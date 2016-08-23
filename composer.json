@@ -1,0 +1,20 @@
+{
+    "name": "oshry/2",
+    "description": "display system for fun",
+    "require": {
+        "mustache/mustache": "^2.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "Layout\\": "src/Layout",
+            "Repository\\": "src/Repository",
+            "Common\\": "src/Common"
+        }
+    },
+    "authors": [
+        {
+            "name": "oshry",
+            "email": "oshrylevy@gmail.com"
+        }
+    ]
+}

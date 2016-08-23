@@ -1,0 +1,29 @@
+{
+  "name": "web-starter",
+  "version": "1.0.0",
+  "description": "Basic any task gulper",
+  "main": "./js/src/app.js",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.13.2",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-minify": "0.0.14",
+    "gulp-sass": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "babel-loader": "^6.2.5",
+    "webpack-stream": "^3.2.0"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp sass"
+  },
+  "author": "Oshry Levy",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "gulp-autoprefixer": "^3.1.0"
+  }
+}
